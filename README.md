@@ -20,7 +20,7 @@ One important thing about my project is how to transform real world informatin i
 
 ![](https://raw.githubusercontent.com/Hongtian22/capstone_project/master/Pics/MV5BMjE1NzI2NzgzMV5BMl5BanBnXkFtZTcwNTAwOTYwMw%40%40._V1__SX1394_SY749_.jpg)![](https://raw.githubusercontent.com/Hongtian22/capstone_project/master/Pics/revenant%E2%80%93il-redivivo.jpg)    
 
-Well, they share the same name. 
+Well, they share the same name. However, their contribution to their movies are totally different, and what people expect from them are totally different. So I can't juse use the names as a feature in my models, not mention there are way too many. Instead, I calculated cumulated box office for each actor, from the very beginning of his/her history until the release date for that single movie. Then add up the most 4 important actors / actress in that movie. This number perfectly reflects the actors factor. 
 
 
 ## Models and Results
