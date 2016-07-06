@@ -12,7 +12,11 @@ My data came from two website. IMDb.com provides movies' basic information. BoxO
 
 
 ## Features
-
+One important thing about my project is how to transform real world informatin into useful numeric features for my models. 
+- Inflation
+	Inflation factors is very important when consider price over time.
+- Regularization
+	Some numbers are huge, like 
 
 
 
