@@ -20,14 +20,17 @@ One important thing about my project is how to transform real world informatin i
 - Other movies:  Say, if you are the only movie in that week, you will get all the attention you want. But if you are in the same week with Titanic, well, good luck. So in my model, I calculated the total box office number for that week, in the whole US movie market. Then for each movie, got the ratio of week 1 box office over the total box office. That ratio will represent the market share this movie got in that week.
 - Actors: Are these two guys the same person?   
 
-![](https://raw.githubusercontent.com/Hongtian22/capstone_project/master/Pics/MV5BMjE1NzI2NzgzMV5BMl5BanBnXkFtZTcwNTAwOTYwMw%40%40._V1__SX1394_SY749_.jpg)![](https://raw.githubusercontent.com/Hongtian22/capstone_project/master/Pics/revenant%E2%80%93il-redivivo.jpg)    
+![](https://raw.githubusercontent.com/Hongtian22/capstone_project/master/Pics/MV5BMjE1NzI2NzgzMV5BMl5BanBnXkFtZTcwNTAwOTYwMw%40%40._V1__SX1394_SY749_.jpg)
+![](https://raw.githubusercontent.com/Hongtian22/capstone_project/master/Pics/revenant%E2%80%93il-redivivo.jpg)    
 
 Well, they share the same name. However, their contribution to their movies are totally different, and what people expect from them are totally different. So I can't juse use the names as a feature in my models, not mention there are way too many. Instead, I calculated cumulated box office for each actor, from the very beginning of his/her history until the release date for that single movie. Then add up the most 4 important actors / actress in that movie. This number perfectly reflects the actors factor. 
 
 
 ## Models and Results
-Finally, I built several multiple linear regression models with ridge regularization. I grouped movies by different genres, different budget range, different 'Movie stars' range. The average accuracy cross all the models are about 82%.
-
+Finally, I built several multiple linear regression models with ridge regularization. I grouped movies by different genres, different budget range, different 'Movie stars' range. The average accuracy cross all the models are about 82%.    
+![](https://raw.githubusercontent.com/Hongtian22/capstone_project/master/Pics/movie.jpg)
+![](https://raw.githubusercontent.com/Hongtian22/capstone_project/master/Pics/movie1.jpg)
+![](https://raw.githubusercontent.com/Hongtian22/capstone_project/master/Pics/movie2.jpg)
 
 ## In the Future
 
