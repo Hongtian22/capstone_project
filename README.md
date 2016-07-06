@@ -35,7 +35,7 @@ Finally, I built several multiple linear regression models with ridge regulariza
 ## In the Future
 
 In the future, I want to introduce movie awards information and rating information in my model, to predict the box office in the following weeks.   
-Most awards and ratings came after several weeks, sometimes even months. So I can't include these factors in my current models. When I build models for the following weeks, these factors will be useful.
+Most awards and ratings came several weeks, sometimes even months, after the release date. So I can't include these factors in my current models. When I build models for the following weeks, these factors will be useful.
 
 
 
