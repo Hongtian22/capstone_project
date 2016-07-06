@@ -8,18 +8,21 @@ The purpose of my project is to predict the second week box office number of a m
 
 ## Data
 
+My data came from two website. IMDb.com provides movies' basic information. BoxOfficeMojo.com provides detailed box office information.
+
 
 ## Features
 
 
-## Models
 
 
-## Results
+## Models and Results
+Finally, I built several multiple linear regression models with ridge regularization. I grouped movies by different genres, different budget range, different 'Movie stars' range. The average accuracy cross all the models are about 82%.
+
 
 ## In the Future
 
-
+In the future, I want to introduce movie awards information and rating information in my model, to predict the box office in the following weeks.
 
 
 
