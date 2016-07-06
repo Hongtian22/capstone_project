@@ -16,7 +16,10 @@ One important thing about my project is how to transform real world informatin i
 - Inflation: Inflation factors is very important when consider price over time. I used the CPI numbers came from Bureau of Labor Statistics.
 - Regularization: Some numbers are huge, like million dollars box office. Some numbers are small, like 10 theaters this movie was on. I used Ridge regularization to solve this problem.
 - Other movies:  Say, if you are the only movie in that week, you will get all the attention you want. But if you are in the same week with Titanic, well, good luck. So in my model, I calculated the total box office number for that week, in the whole US movie market. Then for each movie, got the ratio of week 1 box office over the total box office. That ratio will represent the market share this movie got in that week.
-- Actors: 
+- Actors: Are these two guys the same person?
+![](https://raw.githubusercontent.com/Hongtian22/capstone_project/master/Pics/MV5BMjE1NzI2NzgzMV5BMl5BanBnXkFtZTcwNTAwOTYwMw%40%40._V1__SX1394_SY749_.jpg)![](https://raw.githubusercontent.com/Hongtian22/capstone_project/master/Pics/revenant%E2%80%93il-redivivo.jpg)
+
+Well, they share the same name. 
 
 
 ## Models and Results
