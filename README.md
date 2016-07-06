@@ -8,7 +8,9 @@ The purpose of my project is to predict the second week box office number of a m
 
 ## Data
 
-My data came from two website. IMDb.com provides movies' basic information. BoxOfficeMojo.com provides detailed box office information.
+My data came from two website.    
+- IMDb.com provides movies' basic information.    
+- BoxOfficeMojo.com provides detailed box office information.
 
 
 ## Features
