@@ -27,7 +27,7 @@ Well, they share the same name. However, their contribution to their movies are 
 
 
 ## Models and Results
-Finally, I built several multiple linear regression models with ridge regularization. I grouped movies by different genres, different budget range, different 'Movie stars' range. The average accuracy cross all the models are about 82%.    
+Finally, I built several multiple linear regression models with ridge regularization. I grouped movies by different genres, different budget range, different 'Movie stars' range. The average accuracy cross all the models are about 82%.      
 ![](https://raw.githubusercontent.com/Hongtian22/capstone_project/master/Pics/movie.jpg)
 ![](https://raw.githubusercontent.com/Hongtian22/capstone_project/master/Pics/movie1.jpg)
 ![](https://raw.githubusercontent.com/Hongtian22/capstone_project/master/Pics/movie2.jpg)
